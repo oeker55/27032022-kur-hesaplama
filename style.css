@@ -1,0 +1,39 @@
+p.deger{
+
+width: 10rem;
+margin: 1rem;
+    background-color: #F6FFA4;
+    text-align: center;
+    padding :0.2rem ;
+    
+ 
+}
+p.bilgi{
+    background-color:#8D8DAA;
+    width: 15rem;
+   
+    padding :0.2rem ;
+}
+h4{
+    width: 6.3rem;
+}
+.hesapMakinesi{
+    padding: 2rem;
+    background-color: #8D8DAA;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.kur{
+    display: flex;
+
+}
+#tl{
+
+    height: 2rem;
+}
+#but{
+    height: 2.35rem;
+}

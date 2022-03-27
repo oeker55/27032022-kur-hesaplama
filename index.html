@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="hesapMakinesi">
+        <h1>KUR DEĞERLERİNİ HESAPLAYIN</h1>
+        <div class="giris ">
+
+            <label for="tl"> TL DEĞERİ = </label>
+            <input type="text" id="tl" placeholder="TLcinsinden Miktarı Giriniz...">
+            <input type="button" id="but" value="Kur Değeri Hesapla" onclick="kurHesapla()">
+        </div>
+        <div class="kur">
+
+            
+            <h4>Dolar</h4>
+           
+            <p class="deger" id="dolar"> 0 </p> 
+            <p class="bilgi">(*1 ABD Doları 14.83 TL)</p>
+        </div>
+        <div class="kur">
+
+            <h4>Euro</h4>
+            <p class="deger" id="euro"> 0 </p>
+            <p class="bilgi">(*1 Euro 16.29 TL)</p>
+        </div>
+        <div class="kur">
+
+            <h4>Sterlin</h4>
+            <p class="deger" id="sterlin">0 </p>
+            <p class="bilgi">(*1 İngiliz Sterlini 19.50 TL)</p>
+        </div>
+        <div class="kur">
+
+            <h4>Riyal</h4>
+            <p class="deger" id="riyal">0</p>
+            <p class="bilgi">(*1 Suudi Riyali 3.94 TL)</p>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
